@@ -7,7 +7,7 @@ export default function Footer() {
 
   return (
     <footer className="max-w-7xl bg-gray-900 dark:bg-gray-950 text-white py-8 relative">
-      <div className="w-screen mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center space-y-4">
+      <div className="w-screen px-4 sm:px-6 lg:px-8 flex flex-col items-center space-y-4">
         
         {/* Navigation Links */}
         <div className="flex justify-center flex-wrap gap-4 text-sm">
