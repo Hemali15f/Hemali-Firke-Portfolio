@@ -43,8 +43,8 @@ export default function Contact() {
     {
       icon: Mail,
       label: 'Email',
-      value: 'hemalif@example.com',
-      href: 'mailto:hemalif@example.com'
+      value: 'hemali.firke@gmail.com',
+      href: 'mailto:hemali.firke@gmail.com'
     },
     {
       icon: Github,
