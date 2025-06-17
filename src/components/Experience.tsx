@@ -6,7 +6,7 @@ export default function Experience() {
     {
       title: 'Btech in Computer Engineering',
       company: 'R. C. Patel Institute Of Technology',
-      location: 'Shirpur, Maharashtra',
+      location: 'Shirpur',
       period: '2022 - 2026',
       achievements: [
         '1st Runner-up at National Level Converges 2025 competition SQUID_MAZE (Coding, Debugging, brainly activities',
