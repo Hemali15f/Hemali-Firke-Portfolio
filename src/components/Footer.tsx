@@ -20,7 +20,7 @@ export default function Footer() {
         </div>
 
         {/* Copyright */}
-        <div className=" w-screen mx-auto border-t border-gray-800 pt-4 w-full text-center">
+        <div className="border-t border-gray-800 pt-4 w-full text-center">
           <p className="text-gray-400 text-sm">© 2025 Hemali Firke.</p>
         </div>
       </div>
