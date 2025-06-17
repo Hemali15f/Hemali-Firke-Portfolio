@@ -45,7 +45,7 @@ export default function Hero() {
           </div>
 
           <p className="text-xl sm:text-1.6xl text-gray-600 dark:text-gray-300 mb-6 max-w-4xl mx-auto leading-relaxed">
-            Dedicated and innovative B. Tech Computer Engineering student with a strong foundation in programming, and web technologies. Passionate about crafting efficient, user-centric solutions and contributing to impactful technical projects.
+            A dedicated and innovative B. Tech Computer Engineering student with a strong foundation in programming, and web technologies. Passionate about crafting efficient, user-centric solutions and contributing to impactful technical projects.
           </p>
 
           {/* CTA Buttons */}
