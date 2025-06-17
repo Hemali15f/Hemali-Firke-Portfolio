@@ -39,8 +39,8 @@ export default function Experience() {
       location: 'Remote',
       period: 'Apr 2024 - Jul 2024',
       description:
-        'Collaborated on Python-based applications, focusing on API integration to enhance functionality and user experience. Created documentation for Python code and workflows to improve clarity and usability.',
-      technologies: ['Python'],
+        'A hybrid program with a specialization in Data Science, focusing on GenAI, analytics, leadership, and hands-on industry projects.',
+      technologies: ['Python','ML'],
     },
   ];
 
