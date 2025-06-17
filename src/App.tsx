@@ -13,7 +13,7 @@ function App() {
   return (
     <ThemeProvider>
   <div className="w-full overflow-x-hidden bg-white dark:bg-gray-900 transition-colors duration-300">
-    <div className="relative mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8 min-h-screen">
+    <div className="relative mx-auto max-w-screen-xl px-4 sm:px-4 lg:px-4 min-h-screen">
       <Header />
       <main>
         <Hero />
