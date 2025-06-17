@@ -122,10 +122,14 @@ export default function Header() {
                 >
                   <Linkedin className="h-5 w-5" />
                 </a>
-                <button className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-medium flex items-center gap-2">
+                <a
+                  href="/Hemali_Firke_Resume.pdf"
+                  download
+                  className="inline-flex items-center bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-medium gap-2"
+                >
                   <Download className="h-4 w-4" />
                   Resume
-                </button>
+                </a>
               </div>
             </div>
           </div>
