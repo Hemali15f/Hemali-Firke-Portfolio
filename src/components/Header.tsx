@@ -54,7 +54,7 @@ export default function Header() {
           <div className=" hidden md:flex items-center space-x-4">
             <ThemeToggle />
             <a
-              href="https://github.com/Hemali15"
+              href="https://github.com/Hemali15f"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-600 dark:text-gray-400  hover:text-cyan-600 dark:hover:text-cyan-400 transition-colors duration-200 hover:scale-110 transform"
@@ -62,7 +62,7 @@ export default function Header() {
               <Github className="h-5 w-5" />
             </a>
             <a
-              href="https://www.linkedin.com/in/firke-hemali-159588257"
+              href="https://www.linkedin.com/in/hemali-firke-159588257"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-600 dark:text-gray-400 hover:text-cyan-600 dark:hover:text-cyan-400 transition-colors duration-200 hover:scale-110 transform"
@@ -107,7 +107,7 @@ export default function Header() {
               ))}
               <div className="flex items-center space-x-4 px-3 py-2">
                 <a
-                  href="https://github.com/Hemali15"
+                  href="https://github.com/Hemali15f"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100"
