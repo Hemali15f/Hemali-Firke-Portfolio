@@ -12,6 +12,14 @@ export default function Projects() {
       featured: true
     },
     {
+      title: 'BookNest',
+      description: [' BookNest is a full-stack AI-powered online bookstore that allows users to browse, search, filter, and purchase books, while also offering an admin panel to manage the book inventory.'],
+      image: 'https://thumbs.dreamstime.com/z/bookstore-shop-exterior-books-shop-brick-building-education-library-market-books-shop-window-shelves-street-shop-mall-159900632.jpg',
+      technologies: [ 'React + TypeScript', 'Tailwind CSS', 'Vite', 'Node.js' + 'Express', 'SQLite'],
+      github: 'https://github.com/Hemali15f/BookNest',
+      featured: true
+    },
+    {
       title: 'Online Project Submission System ',
       description: ' Built responsive web interface using HTML, CSS, JS with secure file uploads. Ensured cross-device compatibility with mobile-friendly design',
       image: 'https://thvnext.bing.com/th/id/OIP.I_ZFLP562Kejh9GtzfFukQHaFQ?cb=thvnext&pid=ImgDet&w=184&h=130&c=7&dpr=1.3',
