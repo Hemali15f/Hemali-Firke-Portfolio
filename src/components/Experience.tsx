@@ -10,6 +10,7 @@ export default function Experience() {
       period: '2022 - 2026',
       achievements: [
         '1st Runner-up at National Level Converges 2025 competition SQUID_MAZE (Coding, Debugging, brainly activities',
+        'CGPA: 7.76',
       ],
     },
     {
