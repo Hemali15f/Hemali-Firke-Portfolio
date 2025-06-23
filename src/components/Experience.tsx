@@ -38,7 +38,7 @@ export default function Experience() {
       title: 'Infosys Springboard Pragati Path: Cohort 5',
       company: 'Infosys Springboard',
       location: 'Remote',
-      period: 'Apr 2024 - Jul 2024',
+      period: 'Apr 2025 - Jul 2025',
       description:
         'A hybrid program with a specialization in Data Science, focusing on GenAI, analytics, leadership, and hands-on industry projects.',
       technologies: ['Python','ML'],
