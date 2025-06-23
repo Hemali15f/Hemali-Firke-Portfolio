@@ -9,8 +9,11 @@ export default function Contact() {
     message: ''
   });
 
+  const [isSending, setIsSending] = useState(false);
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    setIsSending(true);
     try {
       const res = await fetch('https://contact-server-olea.onrender.com/api/contact', {
         method: 'POST',
@@ -28,9 +31,10 @@ export default function Contact() {
     } catch (err) {
       alert('Error sending message');
       console.error(err);
+    } finally {
+      setIsSending(false);
     }
   };
-
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormData({
@@ -50,13 +54,13 @@ export default function Contact() {
       icon: Github,
 
       value: 'GitHub',
-      href: 'https://github.com/Hemali15'
+      href: 'https://github.com/Hemali15f'
     },
     {
       icon: Linkedin,
 
       value: 'Linkedin',
-      href: 'https://www.linkedin.com/in/hemali-firke-159588257/'
+      href: 'https://www.linkedin.com/in/hemali-firke-159588257'
     }
   ];
 
@@ -171,11 +175,18 @@ export default function Contact() {
 
               <button
                 type="submit"
-                className="w-full bg-gradient-to-r from-violet-500 via-blue-500 to-cyan-400 text-white px-8 py-4 rounded-lg font-medium text-lg transition-all duration-200 hover:scale-105 transform hover:shadow-lg  flex items-center justify-center gap-2"
+                disabled={isSending}
+                className={`w-full bg-gradient-to-r from-violet-500 via-blue-500 to-cyan-400 text-white px-8 py-4 rounded-lg font-medium text-lg transition-all duration-200 flex items-center justify-center gap-2 ${isSending ? 'opacity-50 cursor-not-allowed' : 'hover:scale-105 hover:shadow-lg'
+                  }`}
               >
-                <Send className="h-5 w-5" />
-                Send Message
+                {isSending ? 'Sending...' : (
+                  <>
+                    <Send className="h-5 w-5" />
+                    Send Message
+                  </>
+                )}
               </button>
+
 
             </form>
           </div>
