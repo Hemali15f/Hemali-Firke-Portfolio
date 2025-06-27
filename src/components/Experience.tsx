@@ -14,7 +14,7 @@ export default function Experience() {
       ],
     },
     {
-      title: 'Employbility Skill Develeopment',
+      title: 'Employbility Skill Development',
       company: 'RPG Foundation and Zensar Technologies',
       location: 'RCPIT',
       period: 'Jan 2025 - Jan 2025',
