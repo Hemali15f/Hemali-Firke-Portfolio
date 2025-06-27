@@ -12,11 +12,11 @@ export default function Projects() {
       featured: true
     },
     {
-      title: 'BookNest',
-      description: [' BookNest is a full-stack AI-powered online bookstore that allows users to browse, search, filter, and purchase books, while also offering an admin panel to manage the book inventory.'],
+      title: 'AI BookNest',
+      description: ['AI BookNest is a personalized AI-powered online bookstore that recommends and displays books based on user preferences, genre interests, and real-time search.'],
       image: 'https://thumbs.dreamstime.com/z/bookstore-shop-exterior-books-shop-brick-building-education-library-market-books-shop-window-shelves-street-shop-mall-159900632.jpg',
-      technologies: [ 'React + TypeScript', 'Tailwind CSS', 'Vite', 'Node.js + Express', 'SQLite'],
-      github: 'https://github.com/Hemali15f/BookNest',
+      technologies: [ 'React.js', 'Tailwind CSS','Firebase','Google Books API'],
+      github: 'https://github.com/Hemali15f/AI-BookNest',
       featured: true
     },
     {
