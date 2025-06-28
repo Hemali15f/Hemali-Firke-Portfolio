@@ -131,7 +131,7 @@ export default function Header() {
                   href="/H_Resume-updated.pdf"
                   download
                   onClick={() => alert("Downloading, see notification")}
-                  className="inline-flex items-center bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-medium gap-2"
+                  className="inline-flex items-center bg-cyan-600 hover:bg-cyan-700 text-white px-4 py-2 rounded-lg text-sm font-medium gap-2"
                 >
                   <Download className="h-4 w-4" />
                   Resume
