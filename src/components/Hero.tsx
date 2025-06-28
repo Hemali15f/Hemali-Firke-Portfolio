@@ -44,9 +44,10 @@ export default function Hero() {
 
           </div>
 
-          <p className="text-xl sm:text-1.6xl text-gray-600 dark:text-gray-300 mb-6 max-w-4xl mx-auto leading-relaxed">
-            A dedicated and innovative B. Tech Computer Engineering student with a strong foundation in programming, and web technologies. Passionate about crafting efficient, user-centric solutions and contributing to impactful technical projects.
-          </p>
+          <p className="text-sm sm:text-xl text-gray-600 dark:text-gray-300 mb-6 max-w-4xl mx-auto leading-relaxed">
+  A dedicated and innovative B. Tech Computer Engineering student with a strong foundation in programming, and web technologies. Passionate about crafting efficient, user-centric solutions and contributing to impactful technical projects.
+</p>
+
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
