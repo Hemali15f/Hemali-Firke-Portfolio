@@ -69,7 +69,7 @@ export default function Header() {
             >
               <Linkedin className="h-5 w-5" />
             </a>
-            <a href="/hemali_resume.pdf" download>
+            <a href="/H_Resume-updated.pdf" download>
               <button className="bg-gradient-to-r from-violet-500 via-blue-500 to-cyan-400 text-white px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 hover:scale-105 transform hover:shadow-lg  flex items-center gap-2">
                 <Download className="h-4 w-4" />
                 Resume
@@ -123,7 +123,7 @@ export default function Header() {
                   <Linkedin className="h-5 w-5" />
                 </a>
                 <a
-                  href="/hemali_resume.pdf"
+                  href="/H_Resume-updated.pdf"
                   download
                   className="inline-flex items-center bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-medium gap-2"
                 >
