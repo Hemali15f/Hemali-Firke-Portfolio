@@ -70,7 +70,7 @@ export default function Header() {
               <Linkedin className="h-5 w-5" />
             </a>
            <a
-  href="/H_Resume-updated.pdf"
+  href="/H_updated_main.pdf"
   download
   onClick={() => alert("Downloading")}
 >
@@ -128,7 +128,7 @@ export default function Header() {
                   <Linkedin className="h-5 w-5" />
                 </a>
                 <a
-                  href="/H_Resume-updated.pdf"
+                  href="/H_updated_main.pdf"
                   download
                   onClick={() => alert("Downloading, see notification")}
                   className="inline-flex items-center bg-cyan-600 hover:bg-cyan-700 text-white px-4 py-2 rounded-lg text-sm font-medium gap-2"
