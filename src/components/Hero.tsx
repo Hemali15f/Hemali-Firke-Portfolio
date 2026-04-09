@@ -15,16 +15,16 @@ export default function Hero() {
 
           {/* Profile Image */}
           <div className="mb-6 mt-20 relative">
-            <div className="w-60 h-60 sm:w-55 sm:h-55 mx-auto rounded-full bg-gradient-to-r from-blue-500 to-emerald-400 p-1 shadow-[0_0_35px_rgba(0,255,255,0.6)]">
+  <div className="w-60 h-60 mx-auto rounded-full bg-gradient-to-r from-blue-500 to-emerald-400 p-[3px] shadow-[0_0_35px_rgba(0,255,255,0.6)]">
 
-              <div className=" w-full h-full rounded-full bg-gray-200 dark:bg-gray-700 flex items-center justify-center">
-                <img
-                  src="/profile-photo.png"
-                  alt="Hemali Firke"
-                  className="w-full h-full rounded-full object-cover object-[50%_15%] scale-110"
-                />
-              </div>
-            </div>
+    <img
+      src="/profile-photo.png"
+      alt="Hemali Firke"
+      className="w-full h-full rounded-full object-cover object-[50%_15%] scale-110 bg-gray-200 dark:bg-gray-700"
+    />
+
+  </div>
+</div>
           
           </div>
 
