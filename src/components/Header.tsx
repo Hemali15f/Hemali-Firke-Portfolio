@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Menu, X, Github, Linkedin, Download } from 'lucide-react';
+import { SiCodechef } from "react-icons/si";
 import ThemeToggle from './ThemeToggle';
 
 export default function Header() {
@@ -69,6 +70,14 @@ export default function Header() {
             >
               <Linkedin className="h-5 w-5" />
             </a>
+            <a
+  href="https://www.codechef.com/users/hemali_firke"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="text-gray-600 dark:text-gray-400 hover:text-cyan-600 dark:hover:text-cyan-400 transition-colors duration-200 hover:scale-110 transform"
+>
+  <SiCodechef size={20} />
+</a>
            <a
   href="/H_updated_main.pdf"
   download
@@ -127,6 +136,14 @@ export default function Header() {
                 >
                   <Linkedin className="h-5 w-5" />
                 </a>
+                <a
+  href="https://www.codechef.com/users/hemali_firke"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400"
+>
+  <SiCodechef size={20} />
+</a>
                 <a
                   href="/H_updated_main.pdf"
                   download
