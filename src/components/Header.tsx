@@ -79,7 +79,7 @@ export default function Header() {
   <img
     src="https://s3.amazonaws.com/codechef_shared/sites/all/themes/abessive/logo.svg"
     alt="CodeChef"
-    className="h-5 w-5 invert dark:invert hover:scale-110 transition-transform duration-200"
+    className="h-7 w-8 invert dark:invert hover:scale-110 transition-transform duration-200"
   />
 </a>
            <a
@@ -149,7 +149,7 @@ export default function Header() {
   <img
     src="https://s3.amazonaws.com/codechef_shared/sites/all/themes/abessive/logo.svg"
     alt="CodeChef"
-    className="h-5 w-5 invert dark:invert hover:scale-110 transition-transform duration-200"
+    className="h-6 w-8 invert dark:invert hover:scale-110 transition-transform duration-200"
   />
 </a>
                 <a
