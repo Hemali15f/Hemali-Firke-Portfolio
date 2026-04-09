@@ -74,15 +74,16 @@ export default function Header() {
   href="https://www.codechef.com/users/hemali_firke"
   target="_blank"
   rel="noopener noreferrer"
+  className="text-gray-600 dark:text-gray-400 hover:text-cyan-600 dark:hover:text-cyan-400 transition-all duration-200 hover:scale-110 transform"
 >
   <img
-    src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/codechef.svg"
+    src="https://s3.amazonaws.com/codechef_shared/sites/all/themes/abessive/logo.svg"
     alt="CodeChef"
-    className="h-5 w-5 brightness-0 dark:brightness-0 invert dark:invert hover:scale-110 transition-transform duration-200"
+    className="h-5 w-5 invert dark:invert hover:scale-110 transition-transform duration-200"
   />
 </a>
            <a
-  href="/H_updated_main.pdf"
+  href="/new-resume-h.pdf"
   download
   onClick={() => alert("Downloading")}
 >
@@ -143,16 +144,16 @@ export default function Header() {
   href="https://www.codechef.com/users/hemali_firke"
   target="_blank"
   rel="noopener noreferrer"
-  className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400"
+  className="text-gray-600 dark:text-gray-400 hover:text-cyan-600 dark:hover:text-cyan-400 transition-all duration-200 hover:scale-110 transform"
 >
   <img
-    src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/codechef.svg"
+    src="https://s3.amazonaws.com/codechef_shared/sites/all/themes/abessive/logo.svg"
     alt="CodeChef"
-    className="h-5 w-5 brightness-0 invert dark:invert hover:scale-110 transition-transform duration-200"
+    className="h-5 w-5 invert dark:invert hover:scale-110 transition-transform duration-200"
   />
 </a>
                 <a
-                  href="/H_updated_main.pdf"
+                  href="/new-resume-h.pdf"
                   download
                   onClick={() => alert("Downloading, see notification")}
                   className="inline-flex items-center bg-cyan-600 hover:bg-cyan-700 text-white px-4 py-2 rounded-lg text-sm font-medium gap-2"
