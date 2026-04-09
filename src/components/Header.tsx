@@ -70,13 +70,16 @@ export default function Header() {
             >
               <Linkedin className="h-5 w-5" />
             </a>
-            <a
+           <a
   href="https://www.codechef.com/users/hemali_firke"
   target="_blank"
   rel="noopener noreferrer"
-  className="text-gray-600 dark:text-gray-400 hover:text-cyan-600 dark:hover:text-cyan-400 transition-colors duration-200 hover:scale-110 transform"
 >
-  <SiCodechef size={20} />
+  <img
+    src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/codechef.svg"
+    alt="CodeChef"
+    className="h-5 w-5 brightness-0 dark:brightness-0 invert dark:invert hover:scale-110 transition-transform duration-200"
+  />
 </a>
            <a
   href="/H_updated_main.pdf"
@@ -142,7 +145,11 @@ export default function Header() {
   rel="noopener noreferrer"
   className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400"
 >
-  <SiCodechef size={20} />
+  <img
+    src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/codechef.svg"
+    alt="CodeChef"
+    className="h-5 w-5 brightness-0 invert dark:invert hover:scale-110 transition-transform duration-200"
+  />
 </a>
                 <a
                   href="/H_updated_main.pdf"
