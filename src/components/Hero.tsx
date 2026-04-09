@@ -21,7 +21,7 @@ export default function Hero() {
                 <img
                   src="/profile-photo.png"
                   alt="Hemali Firke"
-                  className="w-full h-full rounded-full object-cover"
+                  className="w-full h-full rounded-full object-cover object-[50%_15%] scale-110"
                 />
               </div>
             </div>
