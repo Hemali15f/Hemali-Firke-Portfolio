@@ -14,9 +14,10 @@ export default function Hero() {
         <div className=" text-center">
 
           {/* Profile Image */}
-          <div className="mb-6 mt-20 relative">
-  className="w-60 h-60 mx-auto rounded-full bg-gradient-to-r from-blue-500 to-emerald-400 p-[3px] 
-shadow-[0_0_25px_rgba(0,255,255,0.8),0_0_60px_rgba(0,255,255,0.6),0_0_90px_rgba(0,255,255,0.4)] animate-pulse"
+          {/* Profile Image */}
+<div className="mb-6 mt-20 relative">
+  <div className="w-60 h-60 mx-auto rounded-full bg-gradient-to-r from-blue-500 to-emerald-400 p-[3px] 
+  shadow-[0_0_25px_rgba(0,255,255,0.8),0_0_60px_rgba(0,255,255,0.6),0_0_90px_rgba(0,255,255,0.4)] animate-pulse">
 
     <img
       src="/profile-photo.png"
@@ -25,6 +26,7 @@ shadow-[0_0_25px_rgba(0,255,255,0.8),0_0_60px_rgba(0,255,255,0.6),0_0_90px_rgba(
     />
 
   </div>
+</div>
 </div>
           
           </div>
