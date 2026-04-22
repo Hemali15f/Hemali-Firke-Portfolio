@@ -29,7 +29,7 @@ export default function Hero() {
 </div>
 </div>
           
-          </div>
+          
 
           {/* Main Content */}
           <h1 className="text-3xl sm:text-3xl lg:text-3xl font-bold text-gray-900 dark:text-white mb-3 animate-fade-in">
