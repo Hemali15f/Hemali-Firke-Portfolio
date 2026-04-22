@@ -83,7 +83,7 @@ export default function Header() {
   />
 </a>
            <a
-  href="/new-resume-h.pdf"
+  href="/Hemali_Firke_Resume.pdf"
   download
   onClick={() => alert("Downloading")}
 >
